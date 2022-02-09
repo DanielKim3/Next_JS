@@ -14,9 +14,13 @@ export default function Header() {
                 </Link>
                 <Link href="/order">
                     <a className="btn btn-link">Order</a>
+                </Link>                
+                <Link href="/recruit">
+                    <a className="btn btn-link">Recruit</a>
                 </Link>
-                <a href="#none" className="btn btn-link">Recruit</a> 
-                <a href="#none" className="btn btn-link">Contact us</a> 
+               <Link href="/contact-us">
+                    <a className="btn btn-link">Contact us</a>
+                </Link>
              </div>       
         </header>
   
